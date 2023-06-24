@@ -199,3 +199,31 @@ footer {
     color: gray;
     margin: auto;
 }
+
+@media only screen and (max-device-width: 600px){
+    body{
+        padding: none;
+        width: 100%;
+    }
+ .container-navegacao a {
+        float: none;
+        text-align: center;
+        margin: 100px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .container-quem-sou .servico-texto, .container-servicos-contatos{
+        width: auto;
+        float: none;
+        text-align: center;
+        padding: none;
+    }
+
+    .container-servicos-contatos .botoes-servicos-contatos a{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: none;
+    }
+}
