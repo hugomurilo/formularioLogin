@@ -213,17 +213,49 @@ footer {
         line-height: 50px;
     }
 
-    .container-quem-sou .servico-texto, .container-servicos-contatos{
-        width: auto;
-        float: none;
-        text-align: center;
-        padding: none;
-    }
-
-    .container-servicos-contatos .botoes-servicos-contatos a{
-        float: none;
+    .container-quem-sou .servico-texto{
         width: 100%;
         text-align: center;
-        padding: none;
+    }
+
+    .container-servicos-contatos {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-servicos-contatos .botoes-servicos-contatos a{
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .container-servicos {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;       
+    }
+
+    .container-servicos .temporario {
+        width: auto;
+        font-size: 2rem;
+        padding: 30px;
+    }
+
+    .container-contatos {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .container-contatos h3 {
+        width: auto;
+        margin: auto;
     }
 }

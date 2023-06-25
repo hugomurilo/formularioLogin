@@ -115,3 +115,10 @@ form > div > input {
     font-weight:bold;
     color: rgb(19, 156, 163);
 }
+
+@media only screen and (max-device-width: 600px){
+    form{
+        width: auto;
+        height: auto;
+    }
+}
