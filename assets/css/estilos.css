@@ -259,17 +259,3 @@ footer {
         margin: auto;
     }  
 }
-
-@media only screen and (max-device-width: 800px){
-    body{
-        padding: none;
-        width: 100%;
-    }
-    .container-navegacao a {
-        float: none;
-        text-align: center;
-        margin: 100px;
-        width: 100%;
-        line-height: 50px;
-    }
-}
